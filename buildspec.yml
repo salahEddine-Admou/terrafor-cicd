@@ -7,7 +7,7 @@ phases:
     commands:
       - ls -la
       - echo installing "node modules"
-      - yarn install 
+      - yarn install --legacy-peer-deps
 
   pre_build:
     commands:
